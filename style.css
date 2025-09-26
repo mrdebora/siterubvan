@@ -1,0 +1,71 @@
+#main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #141414;
+  overflow-x: hidden;
+  background-image: url("fundo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero_text_container {
+  text-align: center;
+  color: rgb(255, 254, 254);
+  font-size: 4rem;
+  padding-top: 100px;
+}
+
+.hero_text_title {
+  text-align:center;
+  font-size: 5rem;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  text-shadow: 2px 2px 8px black;
+}
+
+.deadpool-main img {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.bottons{
+  text-align:center;
+  margin-bottom:0%;
+}
+button {
+  margin: 20px 10px;
+  padding: 20px 20px;
+  font-size: 1.2rem;
+  background: rgb(211, 200, 41);
+  border: none;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #ff4b4b;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+  .hero_text_container {
+    font-size: 2rem; 
+    padding-top: 40px;
+  }
+
+  .hero_text_title {
+    font-size: 2.5rem; 
+  }
+  .deadpool-main img {
+    width: 80vw; 
+    margin-top: 30px;
+  }
+
+  button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    margin: 10px 5px;
+  }
+}
